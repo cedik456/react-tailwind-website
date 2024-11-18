@@ -2,7 +2,7 @@ import { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 
 const Navbar = () => {
-  const [nav, setNav] = useState(false);
+  const [nav, setNav] = useState(true);
 
   const handleNav = () => {
     setNav(!nav);
@@ -12,7 +12,7 @@ const Navbar = () => {
     <div className="text-white flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 ">
       <h1 className=" text-3xl font-bold text-[#00df9a] ">Increvia</h1>
 
-      <ul className="hidden md:flex space-x-4">
+      <ul className="hidden space-x-4 md:flex">
         <li className="p-4">Home</li>
         <li className="p-4">Company</li>
         <li className="p-4">Resources</li>
@@ -20,7 +20,7 @@ const Navbar = () => {
         <li className="p-4">Contact</li>
       </ul>
 
-      <div onClick={handleNav} className="cursor-pointer block md:hidden p-4">
+      <div onClick={handleNav} className="block p-4 cursor-pointer md:hidden">
         {!nav ? <AiOutlineClose size={25} /> : <AiOutlineMenu size={25} />}
       </div>
 
@@ -31,7 +31,7 @@ const Navbar = () => {
             : "fixed left-[-100%] "
         }
       >
-        <h1 className="w-full text-3xl font-bold text-[#00df9a] m-4 mt-7">
+        <h1 className="w-full text-3xl font-bold text-[#00df9a] m-4 mt-8">
           Increvia
         </h1>
 
