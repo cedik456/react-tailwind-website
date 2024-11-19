@@ -29,6 +29,9 @@ const Hero = () => {
             Platform
           </p>
         </div>
+        <button className="w-[200px] bg-[#00df9a] rounded-md font-medium my-6 mx-auto py-3 border-none border-r-8">
+          Get Started
+        </button>
       </div>
     </div>
   );
