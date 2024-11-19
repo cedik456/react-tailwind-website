@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className="text-white">
       <div className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center">
-        <p className=" text-[#00df9a] font-bold p-2">
+        <p className="p-2 font-bold text-primary-color">
           GROW WITH DATA ANALYTICS
         </p>
         <h1 className="text-4xl font-bold md:py-3 md:text-7xl sm:text-6xl">
@@ -24,12 +24,12 @@ const Hero = () => {
           </p>
         </div>
         <div>
-          <p className="text-xl font-bold text-gray-600 md:text-2xl sm:text-xs">
+          <p className="text-xl font-bold text-gray-600 md:text-2xl sm:text-xl">
             Monitor your data analytics to increase revenue for BTB, BTC & SASS
             Platform
           </p>
         </div>
-        <button className="w-[200px] bg-[#00df9a] rounded-md font-medium my-6 mx-auto py-3 border-none border-r-8">
+        <button className="w-[200px] bg-primary-color rounded-md font-medium my-6 mx-auto py-3 border-none border-r-8">
           Get Started
         </button>
       </div>

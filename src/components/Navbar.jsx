@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <div className="text-white flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 ">
-      <h1 className=" text-3xl font-bold text-[#00df9a] ">Increvia</h1>
+      <h1 className="text-3xl font-bold text-primary-color">Increvia</h1>
 
       <ul className="hidden space-x-4 md:flex">
         <li className="p-4">Home</li>
@@ -27,11 +27,11 @@ const Navbar = () => {
       <div
         className={
           !nav
-            ? "fixed left-0 top-0 w-[60%] border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500"
+            ? "fixed left-0 top-0 w-[60%] border-r border-r-gray-900 bg-background-dark ease-in-out duration-500"
             : "fixed left-[-100%] "
         }
       >
-        <h1 className="w-full text-3xl font-bold text-[#00df9a] m-4 mt-8">
+        <h1 className="w-full m-4 mt-8 text-3xl font-bold text-primary-color">
           Increvia
         </h1>
 
