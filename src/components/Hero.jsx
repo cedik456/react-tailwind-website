@@ -24,7 +24,7 @@ const Hero = () => {
           </p>
         </div>
         <div>
-          <p className="text-xl font-bold text-gray-600 md:text-2xl sm:text-xl">
+          <p className="text-[16px] font-bold text-gray-600 md:text-2xl sm:text-xl">
             Monitor your data analytics to increase revenue for BTB, BTC & SASS
             Platform
           </p>
